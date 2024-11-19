@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JOSESwift-4t5'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JOSESwift-4t5.'
+  s.version          = '1.0.0'
+  s.summary          = 'JOSESwift-4t5 for Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'JOSESwift-4t5 is a modular and extensible framework for the JOSE standards JWS, JWE, and JWK written in Swift.'
 
-  s.homepage         = 'https://github.com/Radhika/JOSESwift-4t5'
+  s.homepage         = 'https://github.com/radhi1190/JOSESwift-4t5'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Radhika' => 'radhika.sharma@tech5-sa.com' }
-  s.source           = { :git => 'https://github.com/Radhika/JOSESwift-4t5.git', :tag => s.version.to_s }
+  s.author           = { 'Radhika' => 'radhika.ios1190@gmail.com' }
+  s.source           = { :git => 'https://github.com/radhi1190/JOSESwift-4t5', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'JOSESwift-4t5/Classes/**/*'
+  s.source_files = 'JOSESwift-4t5/Sources/**/*.{h,swift}'
   
   # s.resource_bundles = {
   #   'JOSESwift-4t5' => ['JOSESwift-4t5/Assets/*.png']
