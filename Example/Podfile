@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JOSESwift-4t5_Tests' do
+  pod 'JOSESwift-4t5', :path => '../'
+  
+  
+end
